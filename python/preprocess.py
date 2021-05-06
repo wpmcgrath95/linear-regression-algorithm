@@ -11,7 +11,6 @@ class Preprocess:
 
     def main(self):
         # return X, y, X_offset, X_scale, y_offset
-        print("f")
 
         return
 
