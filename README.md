@@ -1,4 +1,6 @@
-# PythonProject
+# Building a Linear Model from Scratch 
+
+The goal of this project is to build the linear regression model or algorithm from scratch and test it on real data. This is for learning purposes only. 
 
 # Setup for developement:
 
