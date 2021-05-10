@@ -4,4 +4,18 @@
 #
 #    pip-compile --output-file=requirements.txt requirements.in
 #
-numpy==1.18.4             # via -r requirements.in
+joblib==1.0.1
+    # via scikit-learn
+numpy==1.18.4
+    # via
+    #   -r requirements.in
+    #   scikit-learn
+    #   scipy
+scikit-learn==0.24.2
+    # via sklearn
+scipy==1.6.3
+    # via scikit-learn
+sklearn==0.0
+    # via -r requirements.in
+threadpoolctl==2.1.0
+    # via scikit-learn
