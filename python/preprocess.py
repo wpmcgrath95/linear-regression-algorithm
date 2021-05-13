@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 import sys
+from pathlib import Path
 
 
 class Preprocess:
     def __init__(self):
-        pass
+        self.this_dir = Path(__file__).resolve().parent.parent
 
     def rescale(self):
         pass
