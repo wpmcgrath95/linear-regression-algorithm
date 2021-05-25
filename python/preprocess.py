@@ -5,7 +5,7 @@ from pathlib import Path
 
 class Preprocess:
     def __init__(self):
-        self.this_dir = Path(__file__).resolve().parent.parent
+        self.this_dir = Path(__file__).parent.absolute()
 
     def rescale(self):
         pass
